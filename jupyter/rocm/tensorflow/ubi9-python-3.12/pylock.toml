@@ -1798,9 +1798,9 @@ wheels = [{ url = "https://files.pythonhosted.org/packages/0f/61/22e778f642465a1
 
 [[packages]]
 name = "keras"
-version = "3.13.2"
-sdist = { url = "https://files.pythonhosted.org/packages/09/e9/400582e5f3dbd815d2a373f7de7717dd1bc8349274e9ac1b9ac47410b123/keras-3.13.2.tar.gz", upload-time = 2026-01-30T00:35:13Z, size = 1155875, hashes = { sha256 = "62f0123488ac87c929c988617e14f293f7bc993811837d08bb37eff77adc85a9" } }
-wheels = [{ url = "https://files.pythonhosted.org/packages/28/b5/ea85873abc99dc64a7a27ff1a8dbfdc7dbb57d4e5d1a423abc11217af4f1/keras-3.13.2-py3-none-any.whl", upload-time = 2026-01-30T00:35:09Z, size = 1513769, hashes = { sha256 = "14b2afc0f9c636cc295d28efc36aae42fc52e7b892c950eec33f3befe4d22fb5" } }]
+version = "3.14.0"
+sdist = { url = "https://files.pythonhosted.org/packages/88/ce/47874047a49eedc2a5d3b41bc4f1f572bb637f51e4351ef3538e49a63800/keras-3.14.0.tar.gz", upload-time = 2026-04-03T01:42:16Z, size = 1263098, hashes = { sha256 = "86fcf8249a25264a566ac393c287c7ad657000e5e62615dcaad4b3472a17aeda" } }
+wheels = [{ url = "https://files.pythonhosted.org/packages/c0/20/78d26f81115d570bdf0e57d19b81de9ad8aa55ddb68eb10c8f0699fccb63/keras-3.14.0-py3-none-any.whl", upload-time = 2026-04-03T01:42:11Z, size = 1627362, hashes = { sha256 = "19ce94b798caaba4d404ab6ef4753b44219170e5c2868156de8bb0494a260114" } }]
 
 [[packages]]
 name = "kfp"

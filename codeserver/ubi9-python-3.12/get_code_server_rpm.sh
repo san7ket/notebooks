@@ -65,6 +65,8 @@ if [[ "$ARCH" == "amd64" || "$ARCH" == "arm64" ||"$ARCH" == "ppc64le" ]]; then
 	source ${NVM_DIR}/nvm.sh
 	while IFS= read -r src_patch; do echo "patches/$src_patch"; patch -p1 < "patches/$src_patch"; done < patches/series
 	nvm use ${NODE_VERSION}
+	# CVE-2026-39983: Force basic-ftp >= 5.2.1 to fix CRLF command injection
+	jq '.overrides["basic-ftp"] = ">=5.2.1"' package.json > package.json.tmp && mv package.json.tmp package.json
 	npm install
 	npm run build
 	VERSION=${CODESERVER_VERSION/v/} npm run build:vscode
